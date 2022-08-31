@@ -101,7 +101,7 @@ public class PracticeForm {
         actions.click(cbBox).perform();
     }
 
-    @Test
+
     public void storeStudentInfo() throws IOException, ParseException {
         String filePath = "./src/test/resources/student.json";
 
